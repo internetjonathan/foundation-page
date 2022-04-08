@@ -1,0 +1,72 @@
+$specialBlue : #00A3AD;
+$lightGrey : #F9F9F9;
+$mediumGrey : #EFEFEF;
+$darkGrey : #DBDBDB;
+
+body{
+    background-color: $lightGrey;
+
+}
+
+.container {
+    max-width: 1140px;
+}
+
+
+.full-width-1{
+    background-image: url('assets/Group 352.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.full-width-2{
+    background-image: url('assets/Group_353.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.blue-bg{
+    background: $specialBlue;
+}
+.blue-text {
+    color: $specialBlue;
+}
+
+#section-2, #section-3{
+    th:nth-child(1){
+        width: 40%;
+        background-color: white;
+    }
+    td, th{
+        // width: 23.33% !important;
+        border-color: white !important;
+        border-width: 2px;
+
+    }
+    
+}
+
+.card {
+    border: none !important;
+}
+
+.grey-bg-1{
+    background-color: $lightGrey !important;
+}
+
+.grey-bg-2{
+    background-color: $mediumGrey !important;
+}
+
+.grey-bg-3{
+    background-color: $darkGrey !important;
+}
