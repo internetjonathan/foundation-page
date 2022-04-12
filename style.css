@@ -2,6 +2,18 @@ body {
   background-color: #F9F9F9;
 }
 
+body h2 {
+  font-weight: 800;
+}
+
+body h4, body h5 {
+  font-weight: 800;
+}
+
+body .bi-check::before {
+  font-size: 40px;
+}
+
 .container {
   max-width: 1140px;
 }
@@ -28,6 +40,21 @@ body {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.full-width-3 {
+  background-image: url("assets/BANNER.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  height: 300px;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   margin-top: 30px;
